@@ -18,7 +18,7 @@ class PeliculasView extends StatelessWidget {
         backgroundColor:
             Theme.of(context).appBarTheme.backgroundColor ?? Colors.white,
         elevation: 2,
-        shadowColor: Colors.grey.withAlpha(60),
+        shadowColor: const Color.fromARGB(255, 34, 51, 238).withAlpha(60),
         centerTitle: true,
         title: Text(
           '🎬Las Películas Mas Populares HN',
